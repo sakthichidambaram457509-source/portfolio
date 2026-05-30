@@ -1,13 +1,32 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 40px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
     line-height: 1.6;
 }
 
-h1{
-    color: #2563eb;
+nav{
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-h2{
-    margin-top: 30px;
+nav a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section{
+    margin-top: 50px;
+}
+
+.skills li,
+.projects li{
+    margin: 8px 0;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
 }
